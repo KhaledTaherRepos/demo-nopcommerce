@@ -64,7 +64,7 @@ demo_nopcommerce/
 3. **Run tests:**:
 
     ```bash
-    mvn test```
+    mvn test -DxmlFilePath=testng```
 
     
 
