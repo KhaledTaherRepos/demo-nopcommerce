@@ -4,7 +4,7 @@ This project is a test automation suite for the NopCommerce application. It uses
 
 ## Project Structure
 
-```plaintext
+``` 
 demo_nopcommerce/
 │
 ├── dependencies.png                # Image showing project dependencies
@@ -42,29 +42,32 @@ demo_nopcommerce/
 │                   ├── D07_followUsStepDef.java
 │                   └── Hooks.java
 └── .idea/                          # IntelliJ IDEA project files
+```
+
 
 ## Prerequisites
 
 - Java Development Kit (JDK) 11 or higher
 - Apache Maven
-- An IDE such as IntelliJ IDEA or Eclipse
-- WebDriver for the browser you intend to use (e.g., ChromeDriver)
 
 ## Setup
 
 1. **Clone the repository**:
    ```bash
    git clone <repository_url>
-   cd demo_nopcommerce```
+   cd demo_nopcommerce
+   ```
 
 2. **Install dependencies:**:
     ```bash
-    mvn install```
+    mvn install
+    ```
 
 3. **Run tests:**:
 
     ```bash
-    mvn test -DxmlFilePath=testng```
+    mvn test -DxmlFilePath=testng
+    ```
 
     
 
@@ -83,4 +86,3 @@ demo_nopcommerce/
 - The project uses Cucumber for behavior-driven development (BDD). Feature files are located in `src/main/resources/features`.
 - Page Object Model (POM) pattern is used for creating page classes located in `src/test/java/org/example/pages`.
 - Step definitions are in `src/test/java/org/example/stepDefs`.
-
