@@ -13,9 +13,8 @@ public class D06_homeSlidersStepDef {
 
     @Given("first slider is clickable")
     public void first_slider_is_clickable() throws InterruptedException {
-        homepage.slider.findElement(By.cssSelector("div[id=\"nivo-slider\"][class=\"nivoSlider\"] a")).click();
+        homepage.slider.findElement(By.cssSelector("a[]")).click();
         Thread.sleep(2000);
-
 
     }
 

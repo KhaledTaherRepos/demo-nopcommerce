@@ -11,9 +11,7 @@ import io.cucumber.testng.CucumberOptions;
                 tags = "@smoke",
                 plugin = {
                         "pretty",
-                        "html:target/cucumber.html",
-                        "rerun:target/rerun.txt"
-                }
+                        "html:target/cucumber.html"}
         )
 public class runners extends AbstractTestNGCucumberTests {
 }
